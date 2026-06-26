@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Habiba 💗</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#ff8fb4"> 
+
+</head>
+
+<canvas id="fireworks"></canvas>
+
+<body>
+
+<div id="hearts"></div>
+
+<div id="clouds">
+    <div class="cloud">☁️</div>
+    <div class="cloud">☁️</div>
+    <div class="cloud">☁️</div>
+</div>
+
+<div id="bears">
+    🐻💗🐻
+</div>
+
+<audio id="bgMusic" loop>
+    <source src="music/birthday.mp3" type="audio/mp3">
+</audio>
+
+<section class="page active" id="welcome">
+
+
+<div class="card">
+
+    <h1>Happy Birthday Habiba 🎂</h1>
+
+    <h2>My Signorina 🌸</h2>
+
+    <p>
+        A little magical journey made specially for you ✨
+    </p>
+
+    <button onclick="showPage('poem')">
+        Open Magic ✨
+    </button>
+
+</div>
+
+
+</section>
+
+<section class="page" id="poem">
+
+
+<div class="card">
+
+    <h2>For Habiba 🌷</h2>
+
+    <p>
+        Some people arrive quietly,
+        yet somehow become the brightest part of ordinary days.
+    </p>
+
+    <p>
+        Some smiles stay longer than the moment they appear.
+    </p>
+
+    <p>
+        Some memories become comfort,
+        even on difficult days.
+    </p>
+
+    <button onclick="showPage('memory')">
+        Continue 💗
+    </button>
+
+</div>
+
+</section>
+
+<section class="page" id="memory">
+
+
+<h2>The way you show prettiness😊 </h2>
+
+<div class="gallery">
+
+    <img src="images/photo1.png">
+
+    <img src="images/photo2.jpeg">
+
+    <img src="images/photo3.jpeg">
+
+    <img src="images/photo4.jpeg">
+
+</div>
+
+<button onclick="showPage('balloons')">
+    Next Surprise 🎈
+</button>
+
+
+</section>
+
+<section class="page" id="balloons">
+
+
+<h2>Pop The Balloons 🎈</h2>
+
+<div class="balloons">
+
+    <div class="balloon">🎈</div>
+    <div class="balloon">🎈</div>
+    <div class="balloon">🎈</div>
+    <div class="balloon">🎈</div>
+    <div class="balloon">🎈</div>
+    <div class="balloon">🎈</div>
+
+</div>
+
+<button onclick="showPage('cake')">
+    Birthday Cake 🎂
+</button>
+
+
+</section>
+
+<section class="page" id="cake">
+
+
+<h2>Make A Wish ✨</h2>
+
+<div class="birthday-cake">
+
+    <div class="cake-heart-left">💗🤍</div>
+    <div class="cake-heart-right">🤍💗</div>
+
+    <div class="big-candle">
+        <div class="flame"></div>
+    </div>
+
+    <div class="candles">
+
+        <div class="small"><div class="flame"></div></div>
+        <div class="small"><div class="flame"></div></div>
+        <div class="small"><div class="flame"></div></div>
+
+        <div class="small"><div class="flame"></div></div>
+        <div class="small"><div class="flame"></div></div>
+        <div class="small"><div class="flame"></div></div>
+
+    </div>
+
+    <div class="cake-top"></div>
+
+    <div class="cake-body"></div>
+    
+    <button id="startBlowing">
+      💨Blow Out Candles
+    </button>
+
+    <div class="cake-sprinkles">
+        <span style="left:20px">💗</span>
+        <span style="left:60px">🤍</span>
+        <span style="left:100px">💗</span>
+        <span style="left:140px">🤍</span>
+        <span style="left:180px">💗</span>
+        <span style="left:220px">🤍</span>
+        <span style="left:250px">💗</span>
+    </div>
+
+</div>
+
+<p>
+    Happy 18th Birthday Habiba 💗
+</p>
+
+<button onclick="showPage('gift')">
+    Open Gift 🎁
+</button>
+
+
+</section>
+
+<section class="page" id="gift">
+
+
+<h2>A Gift For Signorina 💝</h2>
+
+<div id="giftBox">
+    🎁
+</div>
+
+<div id="giftText">
+
+    Thank you for bringing so many beautiful moments into my life 🌸
+
+    <br><br>
+
+    Happy Birthday Habiba 💗
+
+    <br><br>
+
+    — Ovi
+
+</div>
+
+<button onclick="showPage('final')">
+    Final Surprise ✨
+</button>
+
+
+</section>
+
+<section class="page" id="final">
+
+<h1>Happy 18th Birthday 🌷</h1>
+
+<h2>Habiba • Signorina 💗</h2>
+
+<div class="final-special">
+
+    <p>
+    Thank you for all the smiles,
+    the laughs,
+    the memories,
+    and the little moments.
+    </p>
+
+    <br>
+
+    <p>
+    This website will always be here,
+    just like the memories inside it.
+    </p>
+
+    <br>
+
+    <p>
+    May your smile always shine,
+    your dreams come true,
+    and your heart stay happy.</p>
+
+    <br>
+
+    <h3>
+
+    💖 Forever A Special Friend 💖
+
+    </h3>
+
+    <br>
+
+    <p>— Ovi ✨</p>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+<div id="wishMessage">
+
+✨ Your wish has been sent to the stars... 💗
+
+</div>
+
+<audio id="popSound" preload="auto">
+    <source src="sounds/pop.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
